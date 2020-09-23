@@ -37,23 +37,23 @@ the KiCad Developers Team.
 
 ## Results
 
-In this section, you must report the outcomes of the laboratory activities.
+This practice is pretty fast, but it makes us look at the final product as a simulation, in order for we to obtain this we needed to export the files to make them ready to be printed or hand crafted into the silicon plate. The results were satisfiying, the screenshots are forward ahead in the Demonstration section.
 
 ### Follow the next 'Project Configuration' Steps
 
 1. Now that your PCB is completed, you can generate the Gerber files for each layer of your board. Click on Perform design rules check as shown in Fig. 1. Then click on the Run DCR, if everything goes right you will get no message of error, as show in figure 2.
 
-![Figure 1](./img/fig1.png)
+![Figure 1](./fig1.png)
 
-![Figure 2](./img/fig2.png)
+![Figure 2](./fig2.png)
 
 2. Click on File→Plot... Select ‘Gerber’ as ‘Plot Format,’also you must choose a folder to save your generated files. Make sure that only the next options are selected: B.Cu from ‘Layers’ box, Exclude PCB edge layer from other layers from ‘Options’ box, and Use proper filename extensions from ‘Gerber Options’ box; as shown in Fig. 3.
 
-![Figure 3](./img/fig3.png)
+![Figure 3](./fig3.png)
 
 3. Finally, click on ‘Plot’ and then click on Generate Drill File. A new window will appear with some options on default. In the section Excellon Drill File Options select the ‘PTH and NPTH holes in single file’ box, then click on the button ‘Generate Drill File.’ Next, in the section Drill Map File Format change to ‘PDF’ box and click on ‘Generate Drill File’ again, see Fig. 4.
 
-![Figure 4](./img/fig4.png)
+![Figure 4](./fig4.png)
 
 4. Once the Gerber and Drill files are generated, you can check your track design [here](https://www.pcbgogo.com/GerberViewer.html). Use the file with the .gbl and .drl extension.
 
@@ -65,8 +65,16 @@ upload the link on Canvas.
 Commit and push the files with extensions .pro, .gbl, and .drl  created once you completed all the steps of the document in the repository.
 
 ### Demonstration
-Screenshot the image of the complete PBC board whith the attached electronic components using the 3d viewer of KiCad.
+Screenshot drill.
+![drill](./drill.png)
+
+Screenshot gerber.
+![gerber](./gerber.png)
 
 ## Conclusion
 
-In this section, you should add the conclusions, suggestions, and/or problems of the laboratory activities. Each team member must add his/her own conclusion (5 lines as minimum for each member).
+This third practice was significantly faster than the last two. This last step allows us to look at the holes needed to drill, and the cupper pats that need to be added in the piece in order for it to work properly.
+
+The gerber view allows us to see the paths and conections, while the drill view helps us with the holes proyection. Combining these two we get a good idea of the possible final product.
+
+The hardest part here was to follow the steps correctly, but it wasnt that hard since it is described in the practice click by click.
